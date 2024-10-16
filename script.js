@@ -1,7 +1,7 @@
 let jogador = vitorias(101, 3)
 let nivel;
 
-if (saldoVitorias <= 10 && saldoVitorias >= 0) {
+if (saldoVitorias <= 10) {
     nivel = "Ferro"
 } else if (saldoVitorias <= 20 && saldoVitorias >= 11) {
     nivel = "Bronze"
